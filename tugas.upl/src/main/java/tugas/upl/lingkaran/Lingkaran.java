@@ -1,7 +1,7 @@
 package tugas.lingkaran;
 
 public class Lingkaran {
-	private double jarijari;
+	protected double jarijari;
 
 	public Lingkaran(double jarijari) {
 		this.jarijari = jarijari;
@@ -19,7 +19,7 @@ public class Lingkaran {
 		return this.jarijari * 2;
 	}
 
-	public double HitungKeliling() {
+	public double hitungKeliling() {
 		return this.jarijari * 2 * 22 / 7;
 	}
 }
